@@ -2,7 +2,7 @@
 
 cd /app
 
-mysqldump -h "$DB_HOST" -u "$DB_USER" -p"$DB_PASSWORD" -B "$DB_NAME" > dump.sql
+mysqldump -h "$DB_HOST" -P "$DB_PORT" -u "$DB_USER" -p"$DB_PASSWORD" -B "$DB_NAME" > dump.sql
 if [[ $? -eq 0 ]]; then
     echo "** Database export completed successfully! **"
 else
