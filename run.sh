@@ -24,7 +24,7 @@ docker run --name anon \
     -e DB_PASSWORD=$DB_PASSWORD \
     -e DB_NAME=$DB_NAME \
     --network testnet \
-    oz-anon
+    sample-anon
 
 docker rm -f $DB_HOST
 docker rm -f anon
