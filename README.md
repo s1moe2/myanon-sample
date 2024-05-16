@@ -6,4 +6,4 @@ The demo consists of running a MySQL server, initialized with a single database 
 
 - build the custom image with `./build.sh`
 - run demo with `./run.sh`
-- see results in `./
+- see results in `./anon_vol`
